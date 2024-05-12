@@ -40,7 +40,7 @@ function App() {
             <Router>
               <Routes>
                 <Route path="/" element={< Layout />}>
-                  <Route path="/dashboard" element={ <Dashboard /> } />
+                  <Route path="/" element={ <Dashboard /> } />
                   <Route path="/active" element={<Active />} />
                   <Route path="/completed" element={<Completed />} />
                 </Route>

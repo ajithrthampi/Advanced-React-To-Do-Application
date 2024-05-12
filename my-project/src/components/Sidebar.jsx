@@ -15,7 +15,7 @@ const Sidebar = () => {
     const navigate = useNavigate()
     const handlenNav = (e) => {
         if (e === "Dashboard") {
-            navigate("/dashboard")
+            navigate("/")
         } else if (e === "Active") {
             navigate("/active")
         } else if (e === "Completed") {
