@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.lexend-regular {
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+.lexend-medium {
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .lexend-bold {
+    font-family: "Lexend", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
